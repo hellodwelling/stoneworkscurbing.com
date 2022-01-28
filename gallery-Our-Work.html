@@ -222,7 +222,7 @@
                             class="flex items-center justify-center flex-shrink-0 pr-5 bg-white rounded-md  focus:ring-2 focus:outline-none ring-primary ring-opacity-75 ring-offset-2"
                         >
                             <img
-                                class="w-[80px] h-[80px] xl:w-[150px] xl:h-[150px] scale-100 origin-left transition"
+                                class="h-[80px] xl:h-[150px] scale-100 origin-left transition w-auto"
                                 src="https://landing-page-app-hero-images.s3.amazonaws.com/media/41bf01da-4d6b-458b-876f-7a118a394e5f.jpeg"
                                 alt="Brand Logo"
                             />
@@ -425,8 +425,19 @@
                                         <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                                             <div class="relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8">
                                                 <!-- Render each sublink -->
-                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Our Work&#x27;, &#x27;href&#x27;: &#x27;gallery-Our-Work&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Standard Curbing Types&#x27;, &#x27;href&#x27;: &#x27;gallery-Standard-Curbing-Types&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Premium Curbing Types&#x27;, &#x27;href&#x27;: &#x27;gallery-Premium-Curbing-Types&#x27;}, {&#x27;title&#x27;: &#x27;All Photos&#x27;, &#x27;copy&#x27;: &#x27;All Photos&#x27;, &#x27;href&#x27;: &#x27;gallery-All&#x27;}]"> -->
+                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Premium Curbing Types&#x27;, &#x27;href&#x27;: &#x27;gallery-Premium-Curbing-Types&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Our Work&#x27;, &#x27;href&#x27;: &#x27;gallery-Our-Work&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Standard Curbing Types&#x27;, &#x27;href&#x27;: &#x27;gallery-Standard-Curbing-Types&#x27;}, {&#x27;title&#x27;: &#x27;All Photos&#x27;, &#x27;copy&#x27;: &#x27;All Photos&#x27;, &#x27;href&#x27;: &#x27;gallery-All&#x27;}]"> -->
                                                   
+                                                    <a
+                                                        href=" gallery-Premium-Curbing-Types "
+                                                        role="menuitem"
+                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
+                                                    >
+                                                        <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
+                                                        <p class="mt-1 text-sm text-gray-500">Premium Curbing Types</p>
+                                                    </a>
+                                                <!-- </each> -->
+                                               <!--  -->
+                                                 
                                                     <a
                                                         href=" gallery-Our-Work "
                                                         role="menuitem"
@@ -445,17 +456,6 @@
                                                     >
                                                         <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                         <p class="mt-1 text-sm text-gray-500">Standard Curbing Types</p>
-                                                    </a>
-                                                <!-- </each> -->
-                                               <!--  -->
-                                                 
-                                                    <a
-                                                        href=" gallery-Premium-Curbing-Types "
-                                                        role="menuitem"
-                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
-                                                    >
-                                                        <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
-                                                        <p class="mt-1 text-sm text-gray-500">Premium Curbing Types</p>
                                                     </a>
                                                 <!-- </each> -->
                                                <!--  -->
@@ -572,7 +572,7 @@
                             href="/"
                             class="flex items-center justify-center flex-shrink-0 bg-white rounded-b-lg focus-visible:ring focus:outline-none ring-primary"
                         >
-                            <img class="w-[80px] h-[80px]" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/41bf01da-4d6b-458b-876f-7a118a394e5f.jpeg" alt="Brand Logo" />
+                            <img class="h-[80px]" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/41bf01da-4d6b-458b-876f-7a118a394e5f.jpeg" alt="Brand Logo" />
                         </a>
                     </div>
                     <div class="-mr-2">
@@ -724,6 +724,12 @@
                                         <div class="relative grid gap-6 px-5 py-2 bg-white rounded-lg">
                                             <!-- Render each sublink -->
                                             
+                                                <a href="gallery-Premium-Curbing-Types" role="menuitem" class="block p-3 -m-3 transition rounded-md">
+                                                    <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
+                                                    <p class="mt-1 text-sm text-gray-500">Premium Curbing Types</p>
+                                                </a>
+                                            <!-- </each> -->
+                                            
                                                 <a href="gallery-Our-Work" role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">Our Work</p>
@@ -733,12 +739,6 @@
                                                 <a href="gallery-Standard-Curbing-Types" role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">Standard Curbing Types</p>
-                                                </a>
-                                            <!-- </each> -->
-                                            
-                                                <a href="gallery-Premium-Curbing-Types" role="menuitem" class="block p-3 -m-3 transition rounded-md">
-                                                    <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
-                                                    <p class="mt-1 text-sm text-gray-500">Premium Curbing Types</p>
                                                 </a>
                                             <!-- </each> -->
                                             
@@ -799,6 +799,8 @@
                 
                     
                         
+                    
+                        
                             <!-- Our Best Work Component -->
 <section class="overflow-hidden bg-white">
     <div class="relative px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:py-24 lg:px-8">
@@ -853,7 +855,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 0; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/98c6bb82-8eac-4133-84f2-1a213189d22a.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/98c6bb82-8eac-4133-84f2-1a213189d22a.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/98c6bb82-8eac-4133-84f2-1a213189d22a.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -869,7 +872,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 1; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/521a5a65-f79c-4871-a217-39b68879f04f.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/521a5a65-f79c-4871-a217-39b68879f04f.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/521a5a65-f79c-4871-a217-39b68879f04f.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -885,7 +889,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 2; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0d546f29-0171-4b02-9d08-135b4b7a961b.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/0d546f29-0171-4b02-9d08-135b4b7a961b.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0d546f29-0171-4b02-9d08-135b4b7a961b.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -901,7 +906,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a4ee8ab6-aff6-498f-a6ae-7238e84d2325.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/a4ee8ab6-aff6-498f-a6ae-7238e84d2325.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a4ee8ab6-aff6-498f-a6ae-7238e84d2325.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -917,7 +923,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eed10c7a-3d1f-468f-8ce0-03a938accfc6.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/eed10c7a-3d1f-468f-8ce0-03a938accfc6.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eed10c7a-3d1f-468f-8ce0-03a938accfc6.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -933,7 +940,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 5; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ab3f244d-477e-415a-a198-1a96bc850198.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/ab3f244d-477e-415a-a198-1a96bc850198.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ab3f244d-477e-415a-a198-1a96bc850198.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -949,7 +957,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 6; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ccacff30-5268-46b7-a03b-2a665e9352ca.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/ccacff30-5268-46b7-a03b-2a665e9352ca.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ccacff30-5268-46b7-a03b-2a665e9352ca.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -965,7 +974,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 7; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/34ba8dc1-fe26-4c5a-b6ab-6ea4f90c029c.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/34ba8dc1-fe26-4c5a-b6ab-6ea4f90c029c.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/34ba8dc1-fe26-4c5a-b6ab-6ea4f90c029c.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -981,7 +991,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 8; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/5d2ca85b-65f1-49c6-9980-1e3327022c43.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/5d2ca85b-65f1-49c6-9980-1e3327022c43.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/5d2ca85b-65f1-49c6-9980-1e3327022c43.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -997,7 +1008,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 9; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7a298be8-9bc5-48bf-bc61-554d1dd40f7e.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/7a298be8-9bc5-48bf-bc61-554d1dd40f7e.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7a298be8-9bc5-48bf-bc61-554d1dd40f7e.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1013,7 +1025,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 10; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a51296c0-5928-472f-986c-767b4f17a345.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/a51296c0-5928-472f-986c-767b4f17a345.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a51296c0-5928-472f-986c-767b4f17a345.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1029,7 +1042,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 11; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a6d1cb6f-4037-43ee-a594-5d1e72d0be0e.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/a6d1cb6f-4037-43ee-a594-5d1e72d0be0e.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a6d1cb6f-4037-43ee-a594-5d1e72d0be0e.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1045,7 +1059,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 12; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1ca65865-08d6-442a-b8e6-3f7fd011efba.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/1ca65865-08d6-442a-b8e6-3f7fd011efba.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1ca65865-08d6-442a-b8e6-3f7fd011efba.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1061,7 +1076,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 13; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/12840c57-9802-4092-85a7-b39a20fd6350.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/12840c57-9802-4092-85a7-b39a20fd6350.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/12840c57-9802-4092-85a7-b39a20fd6350.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1077,7 +1093,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 14; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/36c9fc9c-d13c-4d88-a97c-6dfd4ae453f8.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/36c9fc9c-d13c-4d88-a97c-6dfd4ae453f8.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/36c9fc9c-d13c-4d88-a97c-6dfd4ae453f8.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1093,7 +1110,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 15; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a207c186-9cb0-472d-9aea-cf429ccc9621.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/a207c186-9cb0-472d-9aea-cf429ccc9621.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a207c186-9cb0-472d-9aea-cf429ccc9621.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1109,7 +1127,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 16; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7863c297-226f-406d-b5c2-bc8f363d1f87.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/7863c297-226f-406d-b5c2-bc8f363d1f87.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7863c297-226f-406d-b5c2-bc8f363d1f87.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1125,7 +1144,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 17; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/395b589d-1259-45d6-854d-26e63d28a85e.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/395b589d-1259-45d6-854d-26e63d28a85e.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/395b589d-1259-45d6-854d-26e63d28a85e.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1141,7 +1161,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 18; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/04ef2a8d-6bb3-4ae9-b650-ae139bbb4ab8.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/04ef2a8d-6bb3-4ae9-b650-ae139bbb4ab8.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/04ef2a8d-6bb3-4ae9-b650-ae139bbb4ab8.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1157,7 +1178,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 19; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/e736cba4-6fff-4410-b842-88bff2d41a32.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/e736cba4-6fff-4410-b842-88bff2d41a32.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/e736cba4-6fff-4410-b842-88bff2d41a32.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1173,7 +1195,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 20; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ee91e524-12c8-4d9e-bb94-5b9385753954.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/ee91e524-12c8-4d9e-bb94-5b9385753954.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ee91e524-12c8-4d9e-bb94-5b9385753954.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1189,7 +1212,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 21; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/91706696-7db5-40b8-9e57-f0f845cee4f7.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/91706696-7db5-40b8-9e57-f0f845cee4f7.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/91706696-7db5-40b8-9e57-f0f845cee4f7.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1205,7 +1229,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 22; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/bede74a7-2c61-4225-9e98-04ff072173d9.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/bede74a7-2c61-4225-9e98-04ff072173d9.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/bede74a7-2c61-4225-9e98-04ff072173d9.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1221,7 +1246,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 23; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2adc0e40-e847-4e19-afec-e9546acbcbfe.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/2adc0e40-e847-4e19-afec-e9546acbcbfe.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2adc0e40-e847-4e19-afec-e9546acbcbfe.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1237,7 +1263,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 24; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/d9db2658-2b0e-45b4-8fe8-d731aeff30b7.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/d9db2658-2b0e-45b4-8fe8-d731aeff30b7.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/d9db2658-2b0e-45b4-8fe8-d731aeff30b7.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1253,7 +1280,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 25; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a6abbbee-05d7-465d-b18a-04f4bcfe6230.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/a6abbbee-05d7-465d-b18a-04f4bcfe6230.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/a6abbbee-05d7-465d-b18a-04f4bcfe6230.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1269,7 +1297,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 26; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eb2dc0cc-4b9e-4583-8334-0d89a3942f69.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/eb2dc0cc-4b9e-4583-8334-0d89a3942f69.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eb2dc0cc-4b9e-4583-8334-0d89a3942f69.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1285,7 +1314,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 27; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/fbf04801-6e3a-428b-acf8-503d64edf19e.jpeg" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/206x206/media/fbf04801-6e3a-428b-acf8-503d64edf19e.jpeg" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/fbf04801-6e3a-428b-acf8-503d64edf19e.jpeg" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -1536,8 +1566,6 @@
                     
                         
                     
-                        
-                    
                 
             
         
@@ -1655,27 +1683,28 @@
                                     >Home</a
                                 >
                             </li>
+                            
+                                
+                                <li>
+                                    <a
+                                        href="#gallery"
+                                        class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
+                                        >Gallery</a
+                                    >
+                                </li>
+                                
+                            
+                            
                             <li>
                                 <a
-                                    href="#"
-                                    class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
-                                    >Gallery</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
+                                    href="reviews"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Reviews</a
                                 >
                             </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
-                                    >Team</a
-                                >
-                            </li>
+                            
+                            
+                            
                         </ul>
                     </div>
                     <!-- Services Links -->
@@ -1685,7 +1714,7 @@
                             
                             <li>
                                 <a
-                                    href="service-service-Curbing-Design"
+                                    href="service-Curbing-Design"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Curbing Design</a
                                 >
@@ -1693,7 +1722,7 @@
                             
                             <li>
                                 <a
-                                    href="service-service-Curbing-Replacement"
+                                    href="service-Curbing-Replacement"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Curbing Replacement</a
                                 >
@@ -1701,7 +1730,7 @@
                             
                             <li>
                                 <a
-                                    href="service-service-Other-Services"
+                                    href="service-Other-Services"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Other Services</a
                                 >
@@ -1709,7 +1738,7 @@
                             
                             <li>
                                 <a
-                                    href="service-service-Mulching"
+                                    href="service-Mulching"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Mulching</a
                                 >
@@ -1983,42 +2012,42 @@
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-98681"
-                                            name="98681"
+                                            id="contact-service-101035"
+                                            name="101035"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-98681" class="ml-3 text-sm font-medium text-gray-700">Curbing Design</label>
+                                        <label for="contact-label-service-101035" class="ml-3 text-sm font-medium text-gray-700">Curbing Design</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-98682"
-                                            name="98682"
+                                            id="contact-service-101036"
+                                            name="101036"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-98682" class="ml-3 text-sm font-medium text-gray-700">Curbing Replacement</label>
+                                        <label for="contact-label-service-101036" class="ml-3 text-sm font-medium text-gray-700">Curbing Replacement</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-98683"
-                                            name="98683"
+                                            id="contact-service-101037"
+                                            name="101037"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-98683" class="ml-3 text-sm font-medium text-gray-700">Other Services</label>
+                                        <label for="contact-label-service-101037" class="ml-3 text-sm font-medium text-gray-700">Other Services</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-98684"
-                                            name="98684"
+                                            id="contact-service-101038"
+                                            name="101038"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-98684" class="ml-3 text-sm font-medium text-gray-700">Mulching</label>
+                                        <label for="contact-label-service-101038" class="ml-3 text-sm font-medium text-gray-700">Mulching</label>
                                     </div>
                                 
                             </div>
