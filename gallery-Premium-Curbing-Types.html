@@ -222,7 +222,7 @@
                             class="flex items-center justify-center flex-shrink-0 pr-5 bg-white rounded-md  focus:ring-2 focus:outline-none ring-primary ring-opacity-75 ring-offset-2"
                         >
                             <img
-                                class="w-[80px] h-[80px] xl:w-[150px] xl:h-[150px] scale-100 origin-left transition"
+                                class="h-[80px] xl:h-[150px] scale-100 origin-left transition w-auto"
                                 src="https://landing-page-app-hero-images.s3.amazonaws.com/media/41bf01da-4d6b-458b-876f-7a118a394e5f.jpeg"
                                 alt="Brand Logo"
                             />
@@ -425,8 +425,19 @@
                                         <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                                             <div class="relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8">
                                                 <!-- Render each sublink -->
-                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Our Work&#x27;, &#x27;href&#x27;: &#x27;gallery-Our-Work&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Standard Curbing Types&#x27;, &#x27;href&#x27;: &#x27;gallery-Standard-Curbing-Types&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Premium Curbing Types&#x27;, &#x27;href&#x27;: &#x27;gallery-Premium-Curbing-Types&#x27;}, {&#x27;title&#x27;: &#x27;All Photos&#x27;, &#x27;copy&#x27;: &#x27;All Photos&#x27;, &#x27;href&#x27;: &#x27;gallery-All&#x27;}]"> -->
+                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Premium Curbing Types&#x27;, &#x27;href&#x27;: &#x27;gallery-Premium-Curbing-Types&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Our Work&#x27;, &#x27;href&#x27;: &#x27;gallery-Our-Work&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Standard Curbing Types&#x27;, &#x27;href&#x27;: &#x27;gallery-Standard-Curbing-Types&#x27;}, {&#x27;title&#x27;: &#x27;All Photos&#x27;, &#x27;copy&#x27;: &#x27;All Photos&#x27;, &#x27;href&#x27;: &#x27;gallery-All&#x27;}]"> -->
                                                   
+                                                    <a
+                                                        href=" gallery-Premium-Curbing-Types "
+                                                        role="menuitem"
+                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
+                                                    >
+                                                        <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
+                                                        <p class="mt-1 text-sm text-gray-500">Premium Curbing Types</p>
+                                                    </a>
+                                                <!-- </each> -->
+                                               <!--  -->
+                                                 
                                                     <a
                                                         href=" gallery-Our-Work "
                                                         role="menuitem"
@@ -445,17 +456,6 @@
                                                     >
                                                         <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                         <p class="mt-1 text-sm text-gray-500">Standard Curbing Types</p>
-                                                    </a>
-                                                <!-- </each> -->
-                                               <!--  -->
-                                                 
-                                                    <a
-                                                        href=" gallery-Premium-Curbing-Types "
-                                                        role="menuitem"
-                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
-                                                    >
-                                                        <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
-                                                        <p class="mt-1 text-sm text-gray-500">Premium Curbing Types</p>
                                                     </a>
                                                 <!-- </each> -->
                                                <!--  -->
@@ -572,7 +572,7 @@
                             href="/"
                             class="flex items-center justify-center flex-shrink-0 bg-white rounded-b-lg focus-visible:ring focus:outline-none ring-primary"
                         >
-                            <img class="w-[80px] h-[80px]" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/41bf01da-4d6b-458b-876f-7a118a394e5f.jpeg" alt="Brand Logo" />
+                            <img class="h-[80px]" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/41bf01da-4d6b-458b-876f-7a118a394e5f.jpeg" alt="Brand Logo" />
                         </a>
                     </div>
                     <div class="-mr-2">
@@ -724,6 +724,12 @@
                                         <div class="relative grid gap-6 px-5 py-2 bg-white rounded-lg">
                                             <!-- Render each sublink -->
                                             
+                                                <a href="gallery-Premium-Curbing-Types" role="menuitem" class="block p-3 -m-3 transition rounded-md">
+                                                    <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
+                                                    <p class="mt-1 text-sm text-gray-500">Premium Curbing Types</p>
+                                                </a>
+                                            <!-- </each> -->
+                                            
                                                 <a href="gallery-Our-Work" role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">Our Work</p>
@@ -733,12 +739,6 @@
                                                 <a href="gallery-Standard-Curbing-Types" role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">Standard Curbing Types</p>
-                                                </a>
-                                            <!-- </each> -->
-                                            
-                                                <a href="gallery-Premium-Curbing-Types" role="menuitem" class="block p-3 -m-3 transition rounded-md">
-                                                    <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
-                                                    <p class="mt-1 text-sm text-gray-500">Premium Curbing Types</p>
                                                 </a>
                                             <!-- </each> -->
                                             
@@ -799,10 +799,6 @@
                 
                     
                         
-                    
-                        
-                    
-                        
                             <!-- Our Best Work Component -->
 <section class="overflow-hidden bg-white">
     <div class="relative px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:py-24 lg:px-8">
@@ -857,7 +853,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 0; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/49bf85ec-f062-4a9c-8eaf-b4e968640e05.png" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/900x491/media/49bf85ec-f062-4a9c-8eaf-b4e968640e05.png" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/49bf85ec-f062-4a9c-8eaf-b4e968640e05.png" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -873,7 +870,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 1; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/dc4191dd-f279-4943-8820-73db70b50a7f.png" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/900x491/media/dc4191dd-f279-4943-8820-73db70b50a7f.png" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/dc4191dd-f279-4943-8820-73db70b50a7f.png" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -889,7 +887,8 @@
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 2; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
-                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ee35dc6a-e646-4881-a33f-94d2ed6c6f4e.png" alt="" />
+                            <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/900x491/media/ee35dc6a-e646-4881-a33f-94d2ed6c6f4e.png" alt="" />
+                            <!-- <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ee35dc6a-e646-4881-a33f-94d2ed6c6f4e.png" alt="" /> -->
                         </div>
 
                         <div class="space-y-1 text-lg font-medium leading-6">
@@ -986,6 +985,10 @@
     </div>
 </section>
 
+                        
+                    
+                        
+                    
                         
                     
                 
@@ -1105,27 +1108,28 @@
                                     >Home</a
                                 >
                             </li>
+                            
+                                
+                                <li>
+                                    <a
+                                        href="#gallery"
+                                        class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
+                                        >Gallery</a
+                                    >
+                                </li>
+                                
+                            
+                            
                             <li>
                                 <a
-                                    href="#"
-                                    class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
-                                    >Gallery</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
+                                    href="reviews"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Reviews</a
                                 >
                             </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
-                                    >Team</a
-                                >
-                            </li>
+                            
+                            
+                            
                         </ul>
                     </div>
                     <!-- Services Links -->
@@ -1135,7 +1139,7 @@
                             
                             <li>
                                 <a
-                                    href="service-service-Curbing-Design"
+                                    href="service-Curbing-Design"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Curbing Design</a
                                 >
@@ -1143,7 +1147,7 @@
                             
                             <li>
                                 <a
-                                    href="service-service-Curbing-Replacement"
+                                    href="service-Curbing-Replacement"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Curbing Replacement</a
                                 >
@@ -1151,7 +1155,7 @@
                             
                             <li>
                                 <a
-                                    href="service-service-Other-Services"
+                                    href="service-Other-Services"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Other Services</a
                                 >
@@ -1159,7 +1163,7 @@
                             
                             <li>
                                 <a
-                                    href="service-service-Mulching"
+                                    href="service-Mulching"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
                                     >Mulching</a
                                 >
@@ -1433,42 +1437,42 @@
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-98681"
-                                            name="98681"
+                                            id="contact-service-101035"
+                                            name="101035"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-98681" class="ml-3 text-sm font-medium text-gray-700">Curbing Design</label>
+                                        <label for="contact-label-service-101035" class="ml-3 text-sm font-medium text-gray-700">Curbing Design</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-98682"
-                                            name="98682"
+                                            id="contact-service-101036"
+                                            name="101036"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-98682" class="ml-3 text-sm font-medium text-gray-700">Curbing Replacement</label>
+                                        <label for="contact-label-service-101036" class="ml-3 text-sm font-medium text-gray-700">Curbing Replacement</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-98683"
-                                            name="98683"
+                                            id="contact-service-101037"
+                                            name="101037"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-98683" class="ml-3 text-sm font-medium text-gray-700">Other Services</label>
+                                        <label for="contact-label-service-101037" class="ml-3 text-sm font-medium text-gray-700">Other Services</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-98684"
-                                            name="98684"
+                                            id="contact-service-101038"
+                                            name="101038"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-98684" class="ml-3 text-sm font-medium text-gray-700">Mulching</label>
+                                        <label for="contact-label-service-101038" class="ml-3 text-sm font-medium text-gray-700">Mulching</label>
                                     </div>
                                 
                             </div>
