@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: 
-Sitemap: https://stoneworkscurbing.com/sitemap.xml
